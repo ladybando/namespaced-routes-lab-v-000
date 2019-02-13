@@ -7,5 +7,6 @@ class Preferences < ActiveRecord::Migration
       t.boolean :allow_create_songs
 
       t.timestamps null: false
+    end
   end
 end
